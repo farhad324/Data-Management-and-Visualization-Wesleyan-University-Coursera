@@ -7,7 +7,7 @@
 #c4:-S4AQ54→ HAD TROUBLE DOING THINGS SUPPOSED TO DO--LIKE WORKING, DOING SCHOOLWORK, OR TAKING CARE OF HOME/FAMILY 
 
 #From the “NESARC” dataset I’m interested in seeing if people who suffer from “MAJOR DEPRESSION” face difficulties while working in daily life.
-#Here, dep1 will show the frequency of depressed people and with the variable work1, work2, work3 we will be able to determine the correlation between depression and daily activity. 
+#Here, c1 will show the frequency of depressed people and with the variable c2, c3, c4 we will be able to determine the correlation between depression and daily activity. 
 #Current Hypothesis is that depression will cause the young adults aged 18-25 to perform badly in their daily activities.
 
 
