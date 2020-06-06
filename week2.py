@@ -1,3 +1,16 @@
+#By using the variables 
+
+#c:- AGE → AGE
+#c1:- S4AQ1 → EVER HAD 2-WEEK PERIOD WHEN FELT SAD, BLUE, DEPRESSED, OR DOWN MOST OF TIME, 
+#c2:- S4AQ4A14→HAD TROUBLE CONCENTRATING/KEEPING MIND ON THINGS MOST DAYS FOR 2+ WEEKS , 
+#c3:- S4AQ4A15→ FOUND IT HARDER TO MAKE DECISIONS MOST OF THE TIME FOR 2+ WEEKS, 
+#c4:-S4AQ54→ HAD TROUBLE DOING THINGS SUPPOSED TO DO--LIKE WORKING, DOING SCHOOLWORK, OR TAKING CARE OF HOME/FAMILY 
+
+#From the “NESARC” dataset I’m interested in seeing if people who suffer from “MAJOR DEPRESSION” face difficulties while working in daily life.
+#Here, dep1 will show the frequency of depressed people and with the variable work1, work2, work3 we will be able to determine the correlation between depression and daily activity. 
+#Current Hypothesis is that depression will cause the young adults aged 18-25 to perform badly in their daily activities.
+
+
 import pandas 
 import numpy
 
@@ -148,3 +161,9 @@ print("\n")
 #1   0.467722
 #9   0.002436
 #Name: S4AQ54, dtype: float64
+
+
+#We can conclude that:-
+# Almost 70% of the sufferer had trouble concentrating
+# Almost 52% of the sufferer had trouble making decisions
+# Almost 47% of the sufferer had trouble with their work and taking care of their families
