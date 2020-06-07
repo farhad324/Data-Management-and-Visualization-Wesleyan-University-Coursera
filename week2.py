@@ -12,7 +12,7 @@
 
 
 import pandas 
-import numpy
+#import numpy
 
 data=pandas.read_csv('nesarc_pds.csv', low_memory=False)
 
@@ -33,8 +33,11 @@ print("Length of the Sub-Data: ",len(sub1))
 print("Sub-Data Column: ",len(sub1.columns))
 
 # Change the data type for chosen variables
-data['S4AQ1'] = pandas.to_numeric(data['S4AQ1'])
-data['AGE'] = pandas.to_numeric(data['AGE'])
+sub1['S4AQ1'] = pandas.to_numeric(sub1['S4AQ1'])
+sub1['AGE'] = pandas.to_numeric(sub1['AGE'])
+sub1['S4AQ4A14'] = pandas.to_numeric(sub1['S4AQ4A14'])
+sub1['S4AQ4A15'] = pandas.to_numeric(sub1['S4AQ4A15'])
+sub1['S4AQ54'] = pandas.to_numeric(sub1['S4AQ54'],errors='coerce')
 
 
 #Frequency Distribution
@@ -161,6 +164,7 @@ print("\n")
 #1   0.467722
 #9   0.002436
 #Name: S4AQ54, dtype: float64
+
 
 
 #We can conclude that:-
