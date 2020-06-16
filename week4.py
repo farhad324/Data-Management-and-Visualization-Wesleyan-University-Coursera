@@ -1,3 +1,30 @@
+#Question: Percentage of facing difficulties caused by different reasons of MAJOR DEPRESSION
+#By using the variables
+#c:- REASON → REASON S4AQ1 → EVER HAD 2-WEEK PERIOD WHEN FELT SAD, BLUE, DEPRESSED, OR DOWN MOST OF TIME, 
+#c2:- S4AQ4A14→HAD TROUBLE CONCENTRATING/KEEPING MIND ON THINGS MOST DAYS FOR 2+ WEEKS , 
+#c3:- S4AQ4A15→ FOUND IT HARDER TO MAKE DECISIONS MOST OF THE TIME FOR 2+ WEEKS, 
+#c4:-S4AQ54→ HAD TROUBLE DOING THINGS SUPPOSED TO DO–LIKE WORKING, DOING SCHOOLWORK, OR TAKING CARE OF HOME/FAMILY
+#S4AQ10CR→ ONLY/ANY EPISODE OF <2 MONTHS IN LAST 12 MONTHS HAPPENED AFTER SOMEONE CLOSE DIED 
+#S4AQ15CR→ ONLY/ANY EPISODE IN LAST 12 MONTHS BEGAN AFTER DRINKING/DRUG USE 
+#S4AQ22CR→ ONLY/ANY EPISODE IN LAST 12 MONTHS RELATED TO ILLNESS From the “NESARC” dataset I’m interested in seeing if people who suffer from “MAJOR DEPRESSION” face difficulties while working in daily life. 
+#Current Hypothesis is that Young adults aged 18-25, who are suffering from “MAJOR DEPRESSION” because of different reasons face difficulties while working in their daily life.
+#function = REASON helps us to collect all the reasons in one dataframe
+#We can conclude that:-
+
+#1. From Graph- Trouble Concentrating=
+#a. Drug abuse has the strongest impact on losing concentration
+#b. The graph is a uniform graph
+
+#2. From Graph- Trouble Making Decisions=
+#a. Drug abuse has the strongest impact on losing concentration
+#b. The graph is a unimodal graph
+
+#3. From Graph- Trouble taking care pf family and work=
+#a. Drug abuse has the strongest impact on losing concentration
+#b. The graph is a uniform graph
+
+
+
 import pandas 
 import numpy
 import seaborn
